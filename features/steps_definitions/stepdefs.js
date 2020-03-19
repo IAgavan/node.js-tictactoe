@@ -26,6 +26,9 @@ When('игрок ходит в клетку {int}', (int) => {
   field[int] = this.player;
   this.field = field.join('');
 });
+Then('ход переходит к {string}', function (string) {
+  this.player = string;
+});
 Then('поле становится {string}', (string) => {
   assert.equal(this.field, string);
 });
@@ -38,6 +41,6 @@ Then('возвращается ошибка', () => {
 Then('победил игрок {string}', (string) => {
   this.winner = string;
 });
-Then('назначается ничья', () => {
+Then('ничья', () => {
   showMessage('ничья');
 });
