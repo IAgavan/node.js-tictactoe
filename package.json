@@ -1,0 +1,28 @@
+{
+  "name": "node.js-tictactoe",
+  "version": "1.0.0",
+  "description": "tictactoe",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAgavan/node.js-tictactoe.git"
+  },
+  "author": "IA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAgavan/node.js-tictactoe/issues"
+  },
+  "homepage": "https://github.com/IAgavan/node.js-tictactoe#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
